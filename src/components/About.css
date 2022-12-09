@@ -1,0 +1,22 @@
+.container {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.aboutIntro {
+    margin-right: 5%;
+    font-size: 40px;
+    align-items: flex-start;
+    color: white;
+}
+
+.aboutText {
+    margin-right: 10%;
+    margin-bottom: 10%;
+}

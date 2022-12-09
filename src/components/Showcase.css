@@ -1,0 +1,79 @@
+:root {}
+
+.showcaseHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.showcaseContainer {
+    /* margin-left: 18%;
+    margin-right: 18%; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.contentBox {
+    /* height: 400px; */
+    width: 400px;
+    min-height: 200px;
+    outline: 1px solid white;
+    border-radius: 15px;
+    background-color: rgb(58, 32, 83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 20%;
+    transition: 300ms;
+    margin: 2.5%;
+}
+
+@media screen and (min-width: 768px) {
+    .contentBox {
+        height: 400px;
+    }
+}
+
+/* will blur and unblur the entire box element */
+.hoverFocusEl:hover {
+    opacity: 100%;
+    transition: 500ms;
+}
+
+/* will change the project title color */
+.hoverFocusName {
+    /* spacing */
+    padding-left: 15%;
+    font-size: 24px;
+}
+
+.hoverFocusName:hover {
+    cursor: pointer;
+}
+
+.hoverFocus {
+    margin-right: 20px;
+}
+
+
+/* will change the social icons color */
+.hoverFocus:hover {
+    color: rgb(135, 74, 192);
+    transition: 350ms;
+}
+
+.hoverFocus:active {
+    color: rgb(135, 74, 192);
+    transition: 350ms;
+    outline: white;
+}
+
+.iconShowcase {
+    padding-right: 10%;
+    font-size: 48px;
+}

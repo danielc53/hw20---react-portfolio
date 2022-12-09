@@ -1,0 +1,28 @@
+div div {
+    color: white
+}
+
+.masterContainer {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+.leftContent {
+    text-align: right;
+    font-size: 40px;
+    /* controls the vertical line that seperates homepage content */
+    border-right: 1px solid gray;
+    padding-right: 5%;
+}
+
+.rightContent {
+    text-align: left;
+    padding-left: 5%;
+}
+
+.name {
+    font-size: 36px;
+}
+

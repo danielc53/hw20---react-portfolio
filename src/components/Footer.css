@@ -1,0 +1,22 @@
+.footerContainer {
+    position: absolute;
+    padding-bottom: 50px;
+    bottom: 0;
+    left: 46.7%;
+    width: 50%;
+}
+
+
+.contactMe {
+    margin-bottom: 50%;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+.mailIcon {
+    color: white;
+    font-size: 26px;
+    margin-left: 10px;
+}

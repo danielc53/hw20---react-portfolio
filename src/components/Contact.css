@@ -1,0 +1,112 @@
+:root {
+   --myYellow:  rgb(255, 199, 45);
+   --myPurpleBackground: rgb(30, 16, 43);
+   --myGray: ;
+   --myIconPurple: ;
+   --myIconPurpleActive: rgb(135, 74, 192);
+}
+
+div a {
+    color: white;
+    display: flex;
+    width: 7%;
+    justify-content: center;
+}
+
+div form h2 {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+div form div h3 {
+    font-size: 16px;
+}
+
+.logo {
+    background-image: url(./img/logo.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: 99%;
+    background-position-y: 210px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    margin-left: 40%;
+    margin-right: 40%;
+    justify-content: flex-start;
+}
+
+/* .stack {
+    display: block;
+    justify-content: center;
+} */
+
+.textArea {
+    background-color: rgb(73, 29, 90);
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px solid transparent white;
+    outline: none;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 200px;
+    height: 100px;
+    
+    margin-bottom: 10%;
+}
+
+.textArea:hover {
+    cursor: pointer;
+    background-color: rgb(73, 18, 95);
+    transition: 0.33s;
+}
+
+.textArea:focus {
+    cursor: text;
+    color: rgb(194, 194, 194);
+    border-color: rgb(73, 18, 95);
+    transition: 0.33s;
+}
+
+.textInput {
+    display: flex;
+    text-align: flex-start;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.textInput:hover {
+    outline: 2px solid rgb(255, 199, 45);
+    transition: .2s;
+}
+
+.textInput:focus {
+
+}
+
+.alignButton {
+    display: grid;
+    
+}
+
+.submitButton {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.title {
+    width: 100%;
+}
+
