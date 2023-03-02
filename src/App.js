@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './components/Home'
+import Home from './pages/Home'
 import Showcase from './components/Showcase';
 import Navbar from './components/Navbar';
 import About from './components/About';
-import Contact from './components/Contact';
+import Contact from './pages/Contact';
 // import Resume from './components/Resume';
 import Footer from './components/Footer'
 import { Routes, Route } from 'react-router-dom';

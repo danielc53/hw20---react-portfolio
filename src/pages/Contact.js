@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import './Contact.css'
-import { validateEmail } from './utils/verify';
+import { validateEmail } from '../components/utils/verify';
 
 function Contact() {
 

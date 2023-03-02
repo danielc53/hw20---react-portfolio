@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div className="masterNav">
             {/* LOGO */}
-            <a className="logo" href='/'></a>
+            <a className="logo" href='/'/>
             {/* NAV */}
 
             <ul className="navbar">
