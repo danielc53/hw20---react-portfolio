@@ -8,6 +8,7 @@ const Showcase = () => {
         <div>
             <div className='showcaseHeader'>Projects</div>
             <div className='showcaseContainer'>
+
                 <div className='contentBox hoverFocusEl' id='box1'>
                     <p className='hoverFocusName'>Sports Players</p>
                     <a href='https://github.com/danielc53/project1-sport-players' className='hoverFocus'>
@@ -17,7 +18,8 @@ const Showcase = () => {
                         <FaLinkedin className='iconShowcase FaLinkedinShowcase' />   
                     </a> */}
                 </div>
-                <div className='contentBox hoverFocusEl' id='box1'>
+
+                <div className='contentBox hoverFocusEl' id='box2'>
                     <p className='hoverFocusName'>Gamers Den</p>
                     <a href='https://github.com/danielc53/project-2' className='hoverFocus'>
                         <FaGithub className='iconShowcase FaGithubShowcase' />
@@ -26,8 +28,9 @@ const Showcase = () => {
                         <FaLinkedin className='iconShowcase FaLinkedinShowcase' />   
                     </a> */}
                 </div>
-                <div className='contentBox hoverFocusEl' id='box1'>
-                    <p className='hoverFocusName'>Project 3</p>
+                <a href='https://chatter-box-500.herokuapp.com/' className='contentBox hoverFocusEl'>
+                    <div  id='box3' >
+                    <p className='hoverFocusName'>ChatterBox</p>
                     <a href='https://github.com/danielc53' className='hoverFocus'>
                         <FaGithub className='iconShowcase FaGithubShowcase' />
                     </a>
@@ -35,7 +38,10 @@ const Showcase = () => {
                         <FaLinkedin className='iconShowcase FaLinkedinShowcase' />   
                     </a> */}
                 </div>
-                <div className='contentBox hoverFocusEl' id='box1'>
+                </a>
+                
+
+                <div className='contentBox hoverFocusEl' id='box4'>
                     <p className='hoverFocusName'>Project 4</p>
                     <a href='https://github.com/danielc53' className='hoverFocus'>
                         <FaGithub className='iconShowcase FaGithubShowcase' />

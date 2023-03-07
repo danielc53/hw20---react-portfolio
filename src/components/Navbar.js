@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div className="masterNav">
             {/* LOGO */}
-            <a className="logo" href='/home'/>
+            <a className="logo" href='/'/>
             {/* NAV */}
 
             <ul className="navbar">
@@ -17,7 +17,7 @@ const Navbar = () => {
                     <GiHamburgerMenu id="hamburger" />
                 </button>
                 <li className="noStyle">
-                    <a href="/home" className="navItem">Home</a>
+                    <a href="/" className="navItem">Home</a>
                 </li>
                 <li className="noStyle">
                     <a href="/about" className="navItem">About</a>

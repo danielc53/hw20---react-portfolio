@@ -4,7 +4,6 @@ import Showcase from './components/Showcase';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Contact from './pages/Contact';
-// import Resume from './components/Resume';
 import Footer from './components/Footer'
 import { Routes, Route } from 'react-router-dom';
 
@@ -13,11 +12,10 @@ function App() {
     <div>
         <Navbar />
         <Routes>
-            <Route path='/home' element={<Home/>}/>
+            <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/showcase' element={<Showcase/>}/>
             <Route path='/contact' element={<Contact/>}/>
-            {/* <Route path='/resume' element={<Resume/>}/> */}
         </Routes>
         <Footer />
     </div>
